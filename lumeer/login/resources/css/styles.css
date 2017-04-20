@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,400i,700,700i,900,900i&subset=latin-ext');
+
+.login-pf body {
+  font-family: 'Lato', sans-serif;
+  background-color: #fff;
+  background-image: none;
+  color: #2c3e50;
+  font-size: 14px;
+}
+
+.login-pf .container {
+  color: #2c3e50;
+}
+
+.login-pf .container .form-horizontal .control-label, #kc-info-wrapper {
+  font-size: 14px;
+}
+
+a {
+  color: #18bc9c;
+}
+
+a:hover, a:focus {
+  color: #18bc9c ! important;
+  text-decoration: underline;
+}
+
+.form-control:hover, .form-control:focus, #kc-form-login input:hover, #kc-form-login input:focus {
+  border-color: #18bc9c;
+}
+
+.form-control:focus {
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(24, 188, 156, 0.6);
+  box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(24, 188, 156, 0.6);
+}
+
+
+.zocial:hover, .zocial:focus {
+  background-color: #18bc9c;
+}
+
+.btn-primary {
+  border: 0px;
+  background-color: #18bc9c;
+
+  background-image: -webkit-linear-gradient(top, #18bc9c 0%, #0f7360 100%);
+  background-image: -o-linear-gradient(top, #18bc9c 0%, #0f7360 100%);
+  background-image: linear-gradient(to bottom, #18bc9c 0%, #0f7360 100%);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff18bc9c', endColorstr='#ff0f7360', GradientType=0);
+}
+
+.btn-primary:hover {
+  background-color: #18bc9c;
+  background-image: none;
+}
+
+.bs-sidebar ul li.active a {
+  border-color: #18bc9c;
+  background-color: rgba(24, 188, 156, 0.2);
+}
