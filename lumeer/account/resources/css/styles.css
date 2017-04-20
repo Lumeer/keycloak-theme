@@ -8,7 +8,7 @@
   font-size: 14px;
 }
 
-.login-pf .container {
+.login-pf .container, #kc-header {
   color: #2c3e50;
 }
 
