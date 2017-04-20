@@ -8,11 +8,11 @@
   font-size: 14px;
 }
 
-.login-pf .container, #kc-header {
+.login-pf .container, #kc-header, .login-pf .container [class^="alert"] {
   color: #2c3e50;
 }
 
-.login-pf .container .form-horizontal .control-label, #kc-info-wrapper, .login-pf .container [class^="alert"] {
+.login-pf .container .form-horizontal .control-label, #kc-info-wrapper {
   font-size: 14px;
 }
 
